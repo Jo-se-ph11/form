@@ -1,0 +1,110 @@
+#button {
+    color: white;
+    padding: 8px 40px 8px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-top: 30px;
+    margin-left: 28px;
+    background-color:rgb(60, 0, 255)
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 28px;
+}
+#house {
+    display: flex;
+    height: 100vh;
+    margin-top: 0%;
+}
+
+#picture {
+    margin-top: 0%;
+    background: url(img/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 494.66px, 742px;
+
+    
+}
+
+#sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    width: 494.66px;
+    background-color: hsla(350, 100%, 88%, 0.1);
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Norse Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: hsl(350, 100%, 88%, 0.5);
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.logo {
+    background-color: white;
+}
+
+
+
+legend {
+    font-size: 24px;
+    margin-left: 19px;    
+}
+
+#content {
+    background-color: white;
+    padding: 10px;
+   /* box-shadow: 20px 10px 40px 20px whitesmoke;*/
+   box-shadow: 10px 3px 10px 8px hsl(0, 0%, 96%, 1);
+}
+
+#login {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 28px;
+}
+
+#container {
+    display: flex; 
+    gap: 80px;
+    padding: 20px;
+}
+
+#container1, #container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 270px;
+}
+
+*:focus {
+    outline: none;
+}
+
+input:focus{
+    outline: 1px solid rgb(0, 0, 255);
+   
+}
+
+input:invalid{
+    outline: 1px solid red;
+    border: none;
+}
